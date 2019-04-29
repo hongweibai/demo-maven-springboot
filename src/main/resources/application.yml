@@ -1,0 +1,9 @@
+logging:
+  file: "logs/config/mike_springboot2.log"
+info:
+  name : "springboot2"
+
+server:
+  port: 8082
+  #项目名，如果不设定，默认是 /
+  context-path: /apptest
