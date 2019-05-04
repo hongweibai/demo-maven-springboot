@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mavenspringbootdemo:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a73bb81d-bc07-47b9-9402-963e4cf8018b" name="Default Changelist" comment="" />
+    <list default="true" id="a73bb81d-bc07-47b9-9402-963e4cf8018b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mike/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mike/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mike/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mike/controller/DictVerInfoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mike/model/DictVerInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mike/model/HelloDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mike/model/common/BaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mike/model/jpa/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mike/model/jpa/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,34 +33,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/controller/DictController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo/DemoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="145">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,12 +46,161 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/jpa/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/jpa/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/common/BaseDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/DemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1102">
+              <caret line="101" column="50" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Object" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spring-boot-starter-web</find>
+      <find>spring-boot-starter-tomcat</find>
+      <find>javax</find>
+      <find>spring-boot-maven-plugin</find>
+      <find>maven-compiler-plugin</find>
+      <find>json</find>
+      <find>kotlin</find>
+      <find>spring-boot-starter</find>
+      <find>mybatis-spring-boot-starter</find>
+      <find>HikariDataSource</find>
+      <find>spring-boot-starter-test</find>
+      <find>org.springframework.boot</find>
+      <find>didispace.domain</find>
+      <find>tomcat</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/demo/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/HelloDto.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/HelloDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/controller/AppServerControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/common/BaseDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/UpgradeUnit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/controller/DictVerInfoRule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/DictVerInfoDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/controller/DictVerInfoBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/UserMapper.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/UserEntity.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/UserEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/dao/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/jpa/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/import.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/jpa/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/jpa/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mike/ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/model/jpa/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/controller/DictController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mike/DemoApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -69,71 +218,131 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1488" />
-    <option name="y" value="99" />
-    <option name="width" value="2028" />
-    <option name="height" value="1748" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mike-demo-springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mike-demo-springboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="183" />
+    <option name="y" value="51" />
+    <option name="width" value="1751" />
+    <option name="height" value="1253" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="mavenspringbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenspringbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mavenspringbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenspringbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mavenspringbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenspringbootdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenspringbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenspringbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mavenspringbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenspringbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mavenspringbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenspringbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="mike" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mike" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mavenspringbootdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenspringbootdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mike" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mike" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mike" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-maven-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-maven-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,14 +354,22 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556357779946" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556945624768" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../samples/spring-boot-jpa-oracle-example" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2816092" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mike" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code_server\mavenspringbootdemo\src\main\java" />
     </key>
@@ -170,22 +387,45 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="ApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mavenspringbootdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mike.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mike" />
+      <option name="MAIN_CLASS_NAME" value="com.mike.ApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mavenspringbootdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="com.mike.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.DemoApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mike.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/mavenspringbootdemo_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+      <deployment>
+        <artifact name="mavenspringbootdemo:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mavenspringbootdemo_war" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_19_mavenspringbootdemo" />
       </server-settings>
@@ -244,6 +484,9 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mavenspringbootdemo:war" />
+        </option>
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.19" ALTERNATIVE_JRE_ENABLED="false">
@@ -310,12 +553,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 9.0.19" />
+      <item itemvalue="JUnit.ApplicationTests" />
       <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.19" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DemoApplication" />
+        <item itemvalue="JUnit.ApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -330,81 +575,266 @@
       <option name="presentableId" value="Default" />
       <updated>1556355266608</updated>
       <workItem from="1556355270772" duration="2134000" />
+      <workItem from="1556438229930" duration="6198000" />
+      <workItem from="1556452494775" duration="751000" />
+      <workItem from="1556497487754" duration="16763000" />
+      <workItem from="1556616245386" duration="1205000" />
+      <workItem from="1556864279195" duration="15086000" />
+      <workItem from="1556931032217" duration="5741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2134000" />
+    <option name="totallyTimeSpent" value="47878000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="992" y="66" width="1352" height="1165" extended-state="1" />
+    <frame x="153" y="-7" width="2414" height="1455" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2565688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14685908" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32970297" />
-      <window_info anchor="bottom" id="Spring" weight="0.32970297" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32970297" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32970297" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32970297" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937956" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27713627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32937956" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32937956" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32937956" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32846716" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32937956" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2498265" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.15025467" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo/controller/TestController.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.3.5.RELEASE/spring-boot-autoconfigure-1.3.5.RELEASE.jar!/org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="226">
+          <caret line="183" column="44" selection-start-line="183" selection-start-column="44" selection-end-line="183" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/controller/IndexController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.3.5.RELEASE/spring-boot-autoconfigure-1.3.5.RELEASE.jar!/org/springframework/boot/autoconfigure/web/DispatcherServletAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="235">
+          <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.3.5.RELEASE/spring-boot-1.3.5.RELEASE.jar!/org/springframework/boot/context/embedded/EmbeddedWebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.0.33/tomcat-embed-core-8.0.33.jar!/org/apache/catalina/loader/WebappClassLoaderBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="1368" column="63" lean-forward="true" selection-start-line="1368" selection-start-column="63" selection-end-line="1368" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/HelloDto.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/controller/AppServerControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/UpgradeUnit.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/controller/DictVerInfoBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/DemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/DictVerInfoDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/UserMapper.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/UserEntity.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/dao/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/mapper/UserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/dao/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/UserEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/HelloDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/import.sql" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mike/ApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/jpa/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/jpa/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/model/common/BaseDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="101" column="50" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="65" lean-forward="true" selection-start-line="5" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/controller/DictController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mike/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -414,10 +844,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>mavenspringbootdemo:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2816092" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -473,7 +905,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
