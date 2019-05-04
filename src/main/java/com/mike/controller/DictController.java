@@ -5,12 +5,12 @@ import com.mike.model.common.BaseDto;
 import com.mike.model.jpa.User;
 import com.mike.model.jpa.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
 
 @RestController
+@CrossOrigin(origins = "http://127.0.0.1:5500", maxAge = 3600)
 public class DictController {
     @Autowired
     private UserRepository userRepository;
@@ -41,6 +41,13 @@ public class DictController {
     @ResponseBody
     public String hello() {
         return "Hello Tu Dictionary! CCC' age is " + userRepository.findByName("CCC").getAge();
+    }
+
+    @PostMapping(value = "/submit.do")
+    @ResponseBody
+    public User submit(@Valid @RequestBody User user) {
+        System.out.println("submit succeed! user.name: " + user.getName() + ", age: " + user.getAge());
+        return user;
     }
 
     @RequestMapping(path = "/latestdictver")
